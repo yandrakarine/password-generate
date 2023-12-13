@@ -10,14 +10,6 @@ import {
 import Slider from "@react-native-community/slider";
 import { ModalPassword } from "./components/modal";
 
-/**
- * TODO:
- * adicionar a função de clipboard
- * armazenar a senha no storage
- * salvar a senha
- * inserir navegação paginas 'Home' e 'Minhas Senhas' - com React Navigation
- */
-
 let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 export default function App() {
   const [size, setSize] = useState(10);
