@@ -1,39 +1,39 @@
-# Gerador de Senha 🔏
-É um gerador de senhas aleatórias, que você poderá copiar e deixar salva no seu dispositivo.
-## Introdução 📖
-Esse App reune as funcionalidades básicas do React Native, é um projeto para estudo. Nele é possivel gerar senhas de no mínimo 6 caracteres e máximo de 20 caracteres, é possível copiar as senhas clicando e segurando na área e também salvá-las no dispositivo assim como excluí-las posteriormente
-### ☑️ Pré-requisitos
+# Password Generator 🔏
+It is a random password generator that allows you to copy and save passwords on your device.
+## Introduction 📖
+This app gathers the basic functionalities of React Native and serves as a study project. It enables you to generate passwords with a minimum of 6 characters and a maximum of 20 characters. You can copy passwords by clicking and holding on the area, as well as save and later delete them on your device.
+### ☑️ Prerequisites
     
-  Antes de começar você precisará ter as seguintes ferramentas instaladas na sua máquina:
+  Before you start, make sure you have the following tools installed on your machine:
   - [Node.js](https://nodejs.org/en)
   - [Expo](https://expo.dev/)
   - [Git](https://git-scm.com)
   - [npm](https://www.npmjs.com/)
     
-E claro, seria interessante ter também um editor para trabalhar e visualizar o código, eu uso o [VSCode](https://code.visualstudio.com/)
+It would also be beneficial to have an editor for working on and viewing the code; I use  [VSCode](https://code.visualstudio.com/)
 
-### 📱 Rodando o código com Expo
+### 📱 Running the code with Expo
 ```
-# faça um clone deste repositório
+# clone this repository
 $ git clone https://github.com/yandrakarine/password-generate
 
-# Entre na pasta
+# Navigate to the project folder
 $ cd password-generate
 
-# Instale as dependências
+# Install dependencies
 $ npm install
 
-# Inicie o Expo
+# Start Expo
 $ npx expo start
 
-# Rodando o app no seu dispositivo Android
+# Run the app on your Android device
 
-## Baixe o app do Expo no seu celular.
-## Faça a leitura do qrcode que foi gerado ao inicializar o expo.
+## Download the Expo app on your phone.
+## Scan the QR code generated when Expo initializes.
 ```
-### 🛠 Tecnologias
+### 🛠 Technologies
 
-As tecnologias utilizadas para construir esse projeto foram:
+The technologies used to build this project were:
 
 - [Expo](https://expo.io/)
 - [React Native](https://reactnative.dev/)
